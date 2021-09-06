@@ -28,7 +28,7 @@ h1{
     min-width: 100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 #idForm{
@@ -36,6 +36,10 @@ h1{
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px;
+}
+
+section#idForm{
+    margin-top: 5rem;
 }
 
 textarea{
@@ -68,6 +72,10 @@ footer{
     color: white;
     border-top: 1px solid rgb(115, 115, 255);
     width: 100%;
+}
+
+footer *{
+    font-size: 12px;
 }
 
 footer form{
