@@ -8,16 +8,24 @@ html{
     margin: 0;
 }
 
-/*==========BODY==============*/
+/*============HEADER==============*/
+
+header{
+    background-color: black;
+    border-bottom: 1px solid rgb(115, 115, 255);
+    height: 4rem;
+    text-align: center;
+}
+
+h1{
+    
+}
+
+/*=============BODY==============*/
 body{
     background-image:url(../assets/images/background-image.jpg);
     background-size:auto;
     background-repeat: no-repeat;
-}
-
-#header{
-    background-color: black;
-    border-bottom: 1px solid rgb(115, 115, 255);
 }
 
 h1{
@@ -26,20 +34,31 @@ h1{
 
 #body{
     min-width: 100%;
-    margin-top: 2rem;
+    margin-top: 10vh;
     margin-bottom: 1rem;
-    min-height: 55vh;
+    min-height: 70vh;
 }
 
-#idForm{
+#idForm, #idReceive{
     background-image: url(../assets/images/paper-white.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px;
+    margin-top: 2rem;
+    min-height: 23rem;
 }
 
-section#idForm{
-    margin-top: 5rem;
+#idReceive{
+    display: none;
+}
+
+#idReceive p{
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+#sign{
+    text-align: end;   
 }
 
 textarea{
